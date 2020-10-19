@@ -5,7 +5,7 @@ set -euxo pipefail
 readonly QEMU_SYS='qemu-system-arm'
 readonly TMP_DIR="${HOME}/qemu_vms"
 readonly RPI_KERNEL="${TMP_DIR}/kernel-qemu-4.19.50-buster"
-readonly RPI_FS="${TMP_DIR}/2019-09-26-raspbian-buster-lite.img"
+readonly RPI_FS="${TMP_DIR}/2020-08-20-raspios-buster-armhf-lite.img"
 readonly PTB_FILE="${TMP_DIR}/versatile-pb.dtb"
 
 has_qemu () {

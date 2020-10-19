@@ -2,8 +2,8 @@
 
 set -euxo pipefail
 
-readonly IMAGE_FILE='2019-09-26-raspbian-buster-lite.zip'
-readonly IMAGE_URL="https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2019-09-30/${IMAGE_FILE}"
+readonly IMAGE_FILE='2020-08-20-raspios-buster-armhf-lite.zip'
+readonly IMAGE_URL="https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2020-08-24/${IMAGE_FILE}"
 readonly KERNEL_URL='https://github.com/dhruvvyas90/qemu-rpi-kernel/blob/c5a491c093604a71db2f01b8fab72bad0e96e2b5/kernel-qemu-4.19.50-buster?raw=true'
 readonly PTB_URL='https://github.com/dhruvvyas90/qemu-rpi-kernel/blob/ea19dc94bc7420675b505c81d2c262ee0eacbb0e/versatile-pb.dtb?raw=true'
 
